@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nImplement sociobiodiversity data standard structure based on TDWG chrono model\n\n- Create directory structure following TDWG standards (vocabulary, build, dist, docs, reports)\n- Add comprehensive vocabulary with 20 core socio-biodiversity terms\n- Document TDWG Socio-Biodiversity Task Group with convenors and members from Brazil, Colombia, and Argentina\n- Create Darwin Core extension documentation for traditional knowledge representation\n- Document GBIF/CESP 2024-015 project context and objectives\n- Add case studies overview covering medicinal plants, agroecology, and traditional ecological knowledge\n- Include contributing guidelines respecting community rights and FPIC\n- Add comprehensive documentation (Quick Start, Task Group info, Extension specs)\n- Set up project infrastructure (LICENSE, .gitignore, build/dist README files)\n\nAll documentation is in English and structured for collaboration between South American partners\nwhile respecting Indigenous data sovereignty and traditional knowledge protocols.\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
